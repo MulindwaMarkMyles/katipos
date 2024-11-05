@@ -1,0 +1,123 @@
+/* App.css */
+
+.app-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.signup-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.highlight {
+    color: #007BFF;
+}
+
+.google-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: white;
+    font-weight: 500;
+}
+
+.google-signup img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem 0;
+    width: 100%;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.divider:not(:empty)::before {
+    margin-right: 0.5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 0.5em;
+}
+
+.signup-form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.signup-form input {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.signup-button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.terms {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: #888;
+}
+
+.terms a {
+    color: #007BFF;
+    text-decoration: none;
+}
